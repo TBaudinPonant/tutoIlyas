@@ -15,6 +15,9 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './heroes.component.css',
 })
 export class HeroesComponent implements OnInit {
+  save() {
+    throw new Error('Method not implemented.');
+  }
   heroes: Hero[] = [];
 
   constructor(private heroService: HeroService) {}

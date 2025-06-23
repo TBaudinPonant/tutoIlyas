@@ -16,6 +16,9 @@ import { HeroService } from '../hero.service';
   styleUrl: './hero-detail.component.css',
 })
 export class HeroDetailComponent implements OnInit {
+  save() {
+    throw new Error('Method not implemented.');
+  }
   @Input() hero?: Hero;
   constructor(
     private route: ActivatedRoute,
